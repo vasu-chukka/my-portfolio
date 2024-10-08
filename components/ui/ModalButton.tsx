@@ -20,7 +20,7 @@ export function AnimatedModal() {
             <div className="p-4">
               <div className="flex items-center mb-4">
                 <img
-                  src="/vasuPic.jpeg"
+                  src="./vasuPic.jpeg"
                   alt="Profile"
                   className="w-20 h-20 rounded-full mr-4"
                 />

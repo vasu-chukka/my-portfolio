@@ -24,7 +24,7 @@ export const gridItems = [
     className: "lg:col-span-1 md:col-span-1 md:row-span-1",
     imgClassName: "",
     titleClassName: "justify-start",
-    img: "/grid.svg",
+    img: "./grid.svg",
     spareImg: "",
   },
   {
@@ -35,7 +35,7 @@ export const gridItems = [
     className: "lg:col-span-1 md:col-span-1 sm:row-span-1",
     imgClassName: "",
     titleClassName: "justify-center",
-    img: "/grid.svg",
+    img: "./grid.svg",
     spareImg: "",
   },
   {
@@ -46,8 +46,8 @@ export const gridItems = [
     className: "lg:col-span-2 md:col-span-2 md:row-span-1",
     imgClassName: "",
     titleClassName: "justify-start",
-    img: "/grid.svg",
-    spareImg: "/b4.svg",
+    img: "./grid.svg",
+    spareImg: "./b4.svg",
   },
   {
     id: 5,
@@ -65,7 +65,7 @@ export const projects = [
     id: 1,
     title: "Apple Iphone-clone Website",
     des: "Recreated the Apple iPhone 15 Pro website, combining GSAP animations and with React js",
-    img: "/Iphone.svg",
+    img: "./Iphone.svg",
     iconLists: ["/Next.svg", "/re.svg", "/tail.svg", "/gsap.svg"],
     link: "https://vasu-chukka.github.io/Apple-Clone/",
   },
@@ -73,7 +73,7 @@ export const projects = [
     id: 2,
     title: "Notes-App",
     des: "A simple and intuitive Notes app designed to help users organize, create, and manage their notes efficiently.",
-    img: "/notes.jpg",
+    img: "./notes.jpg",
     iconLists: ["/next.svg", "/re.svg", "/tail.svg"],
     link: "https://vasu-chukka.github.io/my-notes/",
   },
@@ -81,7 +81,7 @@ export const projects = [
     id: 3,
     title: "Tenziz Game",
     des: "A fun and interactive Tenziz game where players roll dice and match values to win by locking in all the same numbers.",
-    img: "/Tenziz-game.png",
+    img: "./Tenziz-game.png",
     iconLists: ["/re.svg", "/tail.svg"],
     link: "https://github.com/vasu-chukka/Tenzies-game",
   },
@@ -89,7 +89,7 @@ export const projects = [
     id: 4,
     title: "My Journal",
     des: "A minimalist travel journal site showcasing the locations that have visited, with brief descriptions and memories from each trip.",
-    img: "/Travel.jpg",
+    img: "./Travel.jpg",
     iconLists: ["/re.svg", "/javaScript.png"],
     link: "https://vasu-chukka.github.io/my-journal/",
   },
@@ -132,13 +132,13 @@ export const companies = [
   {
     id: 1,
     name: "cloudinary",
-    img: "/cloud.svg",
+    img: "./cloud.svg",
     nameImg: "/cloudName.svg",
   },
   {
     id: 2,
     name: "appwrite",
-    img: "/app.svg",
+    img: "./app.svg",
     nameImg: "/appName.svg",
   },
   {
@@ -195,17 +195,17 @@ export const socialMedia = [
   {
     id: 1,
     name: "git",
-    img: "/git.svg",
+    img: "./git.svg",
   },
   {
     id: 2,
     name: "insta",
-    img: "/insta.svg",
+    img: "./insta.svg",
   },
   {
     id: 3,
     name: "link",
-    img: "/link.svg",
+    img: "./link.svg",
   },
 ];
 
