@@ -1,8 +1,6 @@
 import React from "react";
 import { Spotlight } from "./ui/SpotLight";
 import { TextGenerateEffect } from "./ui/TextGenerateEffect";
-import Button from "./ui/Button";
-import { IoSend } from "react-icons/io5";
 import { AnimatedModal } from "./ui/ModalButton";
 import { BackgroundLines } from "./ui/background-lines";
 

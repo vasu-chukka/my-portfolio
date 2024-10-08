@@ -27,7 +27,7 @@ export const FloatingNav = ({
   useMotionValueEvent(scrollYProgress, "change", (current) => {
     // Check if current is not undefined and is a number
     if (typeof current === "number") {
-      let direction = current! - scrollYProgress.getPrevious()!;
+      const direction = current! - scrollYProgress.getPrevious()!;
 
       if (scrollYProgress.get() < 0.05) {
         setVisible(false);
@@ -40,6 +40,12 @@ export const FloatingNav = ({
       }
     }
   });
+  interface NavItem {
+    link: string;
+    icon?: JSX.Element;
+    name: string;
+    // Add other properties if needed, such as 'label' or 'icon'
+  }
 
   return (
     <AnimatePresence mode="wait">
@@ -60,7 +66,7 @@ export const FloatingNav = ({
           className
         )}
       >
-        {navItems.map((navItem: any, idx: number) => (
+        {navItems.map((navItem: NavItem, idx: number) => (
           <Link
             key={`link=${idx}`}
             href={navItem.link}

@@ -34,7 +34,6 @@ export const BentoGridItem = ({
   img,
   imgClassName,
   titleClassName,
-  spareImg,
 }: {
   id: number;
   className?: string;
@@ -43,7 +42,6 @@ export const BentoGridItem = ({
   img?: string;
   imgClassName?: string;
   titleClassName?: string;
-  spareImg?: string;
 }) => {
   const [copied, setCopied] = useState(false);
 
