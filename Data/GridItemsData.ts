@@ -66,7 +66,7 @@ export const projects = [
     title: "Apple Iphone-clone Website",
     des: "Recreated the Apple iPhone 15 Pro website, combining GSAP animations and with React js",
     img: "./Iphone.svg",
-    iconLists: ["./Next.svg", "./re.svg", "./tail.svg", "./gsap.svg"],
+    iconLists: ["./next.svg", "./re.svg", "./tail.svg", "./gsap.svg"],
     link: "https://vasu-chukka.github.io/Apple-Clone/",
   },
   {
