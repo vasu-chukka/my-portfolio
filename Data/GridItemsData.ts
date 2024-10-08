@@ -66,7 +66,7 @@ export const projects = [
     title: "Apple Iphone-clone Website",
     des: "Recreated the Apple iPhone 15 Pro website, combining GSAP animations and with React js",
     img: "./Iphone.svg",
-    iconLists: ["/Next.svg", "/re.svg", "/tail.svg", "/gsap.svg"],
+    iconLists: ["./Next.svg", "./re.svg", "./tail.svg", "./gsap.svg"],
     link: "https://vasu-chukka.github.io/Apple-Clone/",
   },
   {
@@ -74,7 +74,7 @@ export const projects = [
     title: "Notes-App",
     des: "A simple and intuitive Notes app designed to help users organize, create, and manage their notes efficiently.",
     img: "./notes.jpg",
-    iconLists: ["/next.svg", "/re.svg", "/tail.svg"],
+    iconLists: ["./next.svg", "./re.svg", "./tail.svg"],
     link: "https://vasu-chukka.github.io/my-notes/",
   },
   {
@@ -82,7 +82,7 @@ export const projects = [
     title: "Tenziz Game",
     des: "A fun and interactive Tenziz game where players roll dice and match values to win by locking in all the same numbers.",
     img: "./Tenziz-game.png",
-    iconLists: ["/re.svg", "/tail.svg"],
+    iconLists: ["./re.svg", "./tail.svg"],
     link: "https://github.com/vasu-chukka/Tenzies-game",
   },
   {
@@ -90,7 +90,7 @@ export const projects = [
     title: "My Journal",
     des: "A minimalist travel journal site showcasing the locations that have visited, with brief descriptions and memories from each trip.",
     img: "./Travel.jpg",
-    iconLists: ["/re.svg", "/javaScript.png"],
+    iconLists: ["./re.svg", "./javaScript.png"],
     link: "https://vasu-chukka.github.io/my-journal/",
   },
 ];
