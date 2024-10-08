@@ -15,11 +15,7 @@ const Footer = () => {
           achieve your goals.
         </p>
         <a href="mailto:chukkavasuyadav@gmail.com" className=" mt-5">
-          <Button
-            title="Let's get in touch"
-            icon={<IoSend />}
-            position="right"
-          />
+          <Button title="Let's get in touch" icon={<IoSend />} />
         </a>
       </div>
 
@@ -31,24 +27,19 @@ const Footer = () => {
           {socialMedia.map((info) => (
             <div
               key={info.id}
-              className="w-10 h-10 flex justify-center items-center cursor-pointer "
+              className="w-10 h-10 flex justify-center items-center cursor-pointer"
               style={{ marginRight: "20px" }}
             >
               <a
-                href={`${
-                  info.id === 1
-                    ? "https://github.com/vasu-chukka"
-                    : info.id === 2
-                    ? "https://www.instagram.com/_vasu.yadav/"
-                    : "https://linkedin.com/in/vasuchukka"
-                }`}
+                href={info.url}
+                rel="noopener noreferrer"
+                className=" z-10 pointer-events-auto"
               >
                 <img
                   src={info.img}
-                  alt="icons"
+                  alt={`${info.name} icon`}
                   width={30}
                   height={30}
-                  className="px5"
                 />
               </a>
             </div>

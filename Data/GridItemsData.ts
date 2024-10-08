@@ -83,7 +83,7 @@ export const projects = [
     des: "A fun and interactive Tenziz game where players roll dice and match values to win by locking in all the same numbers.",
     img: "./Tenziz-game.png",
     iconLists: ["./re.svg", "./tail.svg"],
-    link: "https://github.com/vasu-chukka/Tenzies-game",
+    link: "https://vasu-chukka.github.io/Tenzies-game/",
   },
   {
     id: 4,
@@ -191,21 +191,25 @@ export const workExperience = [
     thumbnail: "/exp4.svg",
   },
 ];
+
 export const socialMedia = [
   {
     id: 1,
-    name: "git",
+    name: "GitHub",
     img: "./git.svg",
+    url: "https://github.com/vasu-chukka",
   },
   {
     id: 2,
-    name: "insta",
+    name: "Instagram",
     img: "./insta.svg",
+    url: "https://www.instagram.com/_vasu.yadav/",
   },
   {
     id: 3,
-    name: "link",
+    name: "LinkedIn",
     img: "./link.svg",
+    url: "https://linkedin.com/in/vasuchukka",
   },
 ];
 
