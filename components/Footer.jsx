@@ -32,6 +32,7 @@ const Footer = () => {
             >
               <a
                 href={info.url}
+                target="_blank"
                 rel="noopener noreferrer"
                 className=" z-10 pointer-events-auto"
               >
