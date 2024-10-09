@@ -1,36 +1,37 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+Developer Portfolio
+This is my personal developer portfolio, showcasing my skills, projects, and experience in front-end development. The portfolio is designed to highlight my expertise in technologies such as React, TypeScript, Tailwind CSS, HTML, and CSS, as well as my passion for building visually appealing and responsive web applications.
 
-## Getting Started
-
-First, run the development server:
-
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
-
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Features
+Clean and Responsive Design: Built with modern UI/UX principles, ensuring a smooth and engaging user experience on all devices.
+Projects Showcase: Displays key projects I've worked on, including a React Notes App, Tenzi Game, and an Apple clone website.
+Interactive 'View My Profile' Button: Leads to detailed information about my background, skills, and contact information.
+Grid Layout: Organized sections for easy navigation and accessibility, making it simple for users to explore my work.
+Fast and Optimized Performance: Developed with best practices for speed and efficiency.
+Technologies Used
+React: Component-based architecture for building reusable and efficient UI.
+TypeScript: For type safety and enhanced code quality.
+Tailwind CSS: For rapid styling and layout design.
+HTML & CSS: Core technologies for structuring and designing the portfolio.
+JavaScript: Dynamic interactivity and functionality.
+How to Run
+Clone the repository:
+bash
+Copy code
+git clone https://github.com/yourusername/portfolio.git
+Navigate to the project directory:
+bash
+Copy code
+cd portfolio
+Install the dependencies:
+bash
+Copy code
+npm install
+Start the development server:
+bash
+Copy code
+npm start
+Open your browser and visit http://localhost:3000 to see the portfolio in action.
+Future Improvements
+Adding more animations and transitions for enhanced interactivity.
+Implementing a blog section to share articles and insights on front-end development.
+Integrating a contact form for direct inquiries.
